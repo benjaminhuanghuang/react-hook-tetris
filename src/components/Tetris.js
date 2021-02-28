@@ -11,8 +11,27 @@ import StartButton from './StartButton';
 
 
 function Tetris() {
+  const [dropTime, setDropTime] = useState(null);
+  const [gameOver, setGameOver] = useState(false);
+
+  const stage = createStage();
+  
+  const score = 10;
+  const rows = 10;
+  const level = 10;
+
+  const startGame = () => {
+   
+  };
 
 
+  const move=({keyCode})=>{
+
+  }
+
+  const keyUp = ({ keyCode }) => {
+   
+  };
   return (
     <StyledTetrisWrapper
       role="button"
